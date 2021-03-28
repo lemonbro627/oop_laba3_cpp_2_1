@@ -15,7 +15,7 @@ namespace ooplaba3cpp {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -24,13 +24,13 @@ namespace ooplaba3cpp {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -140,14 +140,14 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -278,7 +278,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button28->Name = L"button28";
 			this->button28->Size = System::Drawing::Size(157, 23);
 			this->button28->TabIndex = 7;
-			this->button28->Text = L"Дробь B[i] / Дробь A[i]";
+			this->button28->Text = L"Р”СЂРѕР±СЊ B[i] / Р”СЂРѕР±СЊ A[i]";
 			this->button28->UseVisualStyleBackColor = true;
 			this->button28->Click += gcnew System::EventHandler(this, &MyForm::button28_Click);
 			// 
@@ -288,7 +288,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button27->Name = L"button27";
 			this->button27->Size = System::Drawing::Size(157, 23);
 			this->button27->TabIndex = 6;
-			this->button27->Text = L"Дробь A[i] / Дробь B[i]";
+			this->button27->Text = L"Р”СЂРѕР±СЊ A[i] / Р”СЂРѕР±СЊ B[i]";
 			this->button27->UseVisualStyleBackColor = true;
 			this->button27->Click += gcnew System::EventHandler(this, &MyForm::button27_Click);
 			// 
@@ -298,7 +298,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button26->Name = L"button26";
 			this->button26->Size = System::Drawing::Size(75, 23);
 			this->button26->TabIndex = 5;
-			this->button26->Text = L"Произведение";
+			this->button26->Text = L"РџСЂРѕРёР·РІРµРґРµРЅРёРµ";
 			this->button26->UseVisualStyleBackColor = true;
 			this->button26->Click += gcnew System::EventHandler(this, &MyForm::button26_Click);
 			// 
@@ -308,7 +308,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button25->Name = L"button25";
 			this->button25->Size = System::Drawing::Size(75, 23);
 			this->button25->TabIndex = 4;
-			this->button25->Text = L"Сумма";
+			this->button25->Text = L"РЎСѓРјРјР°";
 			this->button25->UseVisualStyleBackColor = true;
 			this->button25->Click += gcnew System::EventHandler(this, &MyForm::button25_Click);
 			// 
@@ -318,7 +318,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button24->Name = L"button24";
 			this->button24->Size = System::Drawing::Size(157, 23);
 			this->button24->TabIndex = 3;
-			this->button24->Text = L"Дробь A[i] = Дробь B[i]";
+			this->button24->Text = L"Р”СЂРѕР±СЊ A[i] = Р”СЂРѕР±СЊ B[i]";
 			this->button24->UseVisualStyleBackColor = true;
 			this->button24->Click += gcnew System::EventHandler(this, &MyForm::button24_Click);
 			// 
@@ -328,7 +328,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button23->Name = L"button23";
 			this->button23->Size = System::Drawing::Size(157, 23);
 			this->button23->TabIndex = 2;
-			this->button23->Text = L"Дробь B[i] = Дробь A[i]";
+			this->button23->Text = L"Р”СЂРѕР±СЊ B[i] = Р”СЂРѕР±СЊ A[i]";
 			this->button23->UseVisualStyleBackColor = true;
 			this->button23->Click += gcnew System::EventHandler(this, &MyForm::button23_Click);
 			// 
@@ -338,7 +338,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(75, 23);
 			this->button22->TabIndex = 1;
-			this->button22->Text = L"Разность";
+			this->button22->Text = L"Р Р°Р·РЅРѕСЃС‚СЊ";
 			this->button22->UseVisualStyleBackColor = true;
 			this->button22->Click += gcnew System::EventHandler(this, &MyForm::button22_Click);
 			// 
@@ -348,7 +348,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(75, 23);
 			this->button21->TabIndex = 0;
-			this->button21->Text = L"Сравнить";
+			this->button21->Text = L"РЎСЂР°РІРЅРёС‚СЊ";
 			this->button21->UseVisualStyleBackColor = true;
 			this->button21->Click += gcnew System::EventHandler(this, &MyForm::button21_Click);
 			// 
@@ -411,7 +411,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(57, 20);
 			this->button11->TabIndex = 45;
-			this->button11->Text = L"Убавить";
+			this->button11->Text = L"РЈР±Р°РІРёС‚СЊ";
 			this->button11->UseVisualStyleBackColor = true;
 			this->button11->Click += gcnew System::EventHandler(this, &MyForm::button11_Click);
 			// 
@@ -422,7 +422,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(117, 13);
 			this->label14->TabIndex = 25;
-			this->label14->Text = L"Индекс в массиве B: ";
+			this->label14->Text = L"РРЅРґРµРєСЃ РІ РјР°СЃСЃРёРІРµ B: ";
 			// 
 			// button13
 			// 
@@ -442,7 +442,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(57, 20);
 			this->button12->TabIndex = 44;
-			this->button12->Text = L"Добавить";
+			this->button12->Text = L"Р”РѕР±Р°РІРёС‚СЊ";
 			this->button12->UseVisualStyleBackColor = true;
 			this->button12->Click += gcnew System::EventHandler(this, &MyForm::button12_Click);
 			// 
@@ -469,7 +469,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(62, 13);
 			this->label12->TabIndex = 24;
-			this->label12->Text = L"Числитель";
+			this->label12->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// label7
 			// 
@@ -489,7 +489,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(75, 13);
 			this->label11->TabIndex = 25;
-			this->label11->Text = L"Знаменатель";
+			this->label11->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// textBox9
 			// 
@@ -533,7 +533,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(75, 20);
 			this->button20->TabIndex = 28;
-			this->button20->Text = L"Задать";
+			this->button20->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button20->UseVisualStyleBackColor = true;
 			this->button20->Click += gcnew System::EventHandler(this, &MyForm::button20_Click);
 			// 
@@ -555,7 +555,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(75, 20);
 			this->button19->TabIndex = 29;
-			this->button19->Text = L"Задать";
+			this->button19->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button19->UseVisualStyleBackColor = true;
 			this->button19->Click += gcnew System::EventHandler(this, &MyForm::button19_Click);
 			// 
@@ -577,7 +577,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(75, 20);
 			this->button18->TabIndex = 30;
-			this->button18->Text = L"Задать";
+			this->button18->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button18->UseVisualStyleBackColor = true;
 			this->button18->Click += gcnew System::EventHandler(this, &MyForm::button18_Click);
 			// 
@@ -588,7 +588,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(75, 13);
 			this->label8->TabIndex = 36;
-			this->label8->Text = L"Знаменатель";
+			this->label8->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// textBox11
 			// 
@@ -605,7 +605,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(62, 13);
 			this->label9->TabIndex = 35;
-			this->label9->Text = L"Числитель";
+			this->label9->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// label10
 			// 
@@ -626,7 +626,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(75, 20);
 			this->button17->TabIndex = 34;
-			this->button17->Text = L"Задать";
+			this->button17->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button17->UseVisualStyleBackColor = true;
 			this->button17->Click += gcnew System::EventHandler(this, &MyForm::button17_Click);
 			// 
@@ -696,7 +696,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(117, 13);
 			this->label13->TabIndex = 23;
-			this->label13->Text = L"Индекс в массиве А: ";
+			this->label13->Text = L"РРЅРґРµРєСЃ РІ РјР°СЃСЃРёРІРµ Рђ: ";
 			// 
 			// button10
 			// 
@@ -706,7 +706,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(57, 20);
 			this->button10->TabIndex = 22;
-			this->button10->Text = L"Убавить";
+			this->button10->Text = L"РЈР±Р°РІРёС‚СЊ";
 			this->button10->UseVisualStyleBackColor = true;
 			this->button10->Click += gcnew System::EventHandler(this, &MyForm::button10_Click);
 			// 
@@ -718,7 +718,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(57, 20);
 			this->button9->TabIndex = 21;
-			this->button9->Text = L"Добавить";
+			this->button9->Text = L"Р”РѕР±Р°РІРёС‚СЊ";
 			this->button9->UseVisualStyleBackColor = true;
 			this->button9->Click += gcnew System::EventHandler(this, &MyForm::button9_Click);
 			// 
@@ -796,7 +796,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(75, 13);
 			this->label4->TabIndex = 13;
-			this->label4->Text = L"Знаменатель";
+			this->label4->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// label5
 			// 
@@ -805,7 +805,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(62, 13);
 			this->label5->TabIndex = 12;
-			this->label5->Text = L"Числитель";
+			this->label5->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// button4
 			// 
@@ -815,7 +815,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 20);
 			this->button4->TabIndex = 11;
-			this->button4->Text = L"Задать";
+			this->button4->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
@@ -854,7 +854,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 20);
 			this->button3->TabIndex = 7;
-			this->button3->Text = L"Задать";
+			this->button3->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -866,7 +866,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 20);
 			this->button2->TabIndex = 6;
-			this->button2->Text = L"Задать";
+			this->button2->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -878,7 +878,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 20);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Задать";
+			this->button1->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -897,7 +897,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(75, 13);
 			this->label2->TabIndex = 2;
-			this->label2->Text = L"Знаменатель";
+			this->label2->Text = L"Р—РЅР°РјРµРЅР°С‚РµР»СЊ";
 			// 
 			// label1
 			// 
@@ -906,7 +906,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(62, 13);
 			this->label1->TabIndex = 1;
-			this->label1->Text = L"Числитель";
+			this->label1->Text = L"Р§РёСЃР»РёС‚РµР»СЊ";
 			// 
 			// textBox1
 			// 
@@ -927,7 +927,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->groupBox4->Size = System::Drawing::Size(229, 90);
 			this->groupBox4->TabIndex = 9;
 			this->groupBox4->TabStop = false;
-			this->groupBox4->Text = L"Параметры массива А";
+			this->groupBox4->Text = L"РџР°СЂР°РјРµС‚СЂС‹ РјР°СЃСЃРёРІР° Рђ";
 			// 
 			// button29
 			// 
@@ -935,7 +935,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button29->Name = L"button29";
 			this->button29->Size = System::Drawing::Size(75, 23);
 			this->button29->TabIndex = 14;
-			this->button29->Text = L" Задать";
+			this->button29->Text = L" Р—Р°РґР°С‚СЊ";
 			this->button29->UseVisualStyleBackColor = true;
 			this->button29->Click += gcnew System::EventHandler(this, &MyForm::button29_Click);
 			// 
@@ -954,7 +954,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label15->Name = L"label15";
 			this->label15->Size = System::Drawing::Size(46, 13);
 			this->label15->TabIndex = 12;
-			this->label15->Text = L"Размер";
+			this->label15->Text = L"Р Р°Р·РјРµСЂ";
 			// 
 			// groupBox5
 			// 
@@ -965,7 +965,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->groupBox5->Size = System::Drawing::Size(123, 74);
 			this->groupBox5->TabIndex = 11;
 			this->groupBox5->TabStop = false;
-			this->groupBox5->Text = L"Начальн. знач.";
+			this->groupBox5->Text = L"РќР°С‡Р°Р»СЊРЅ. Р·РЅР°С‡.";
 			// 
 			// radioButton3
 			// 
@@ -976,7 +976,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->radioButton3->Size = System::Drawing::Size(71, 17);
 			this->radioButton3->TabIndex = 2;
 			this->radioButton3->TabStop = true;
-			this->radioButton3->Text = L"случайно";
+			this->radioButton3->Text = L"СЃР»СѓС‡Р°Р№РЅРѕ";
 			this->radioButton3->UseVisualStyleBackColor = true;
 			// 
 			// radioButton2
@@ -987,7 +987,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->radioButton2->Size = System::Drawing::Size(81, 17);
 			this->radioButton2->TabIndex = 1;
 			this->radioButton2->TabStop = true;
-			this->radioButton2->Text = L"по порядку";
+			this->radioButton2->Text = L"РїРѕ РїРѕСЂСЏРґРєСѓ";
 			this->radioButton2->UseVisualStyleBackColor = true;
 			// 
 			// groupBox6
@@ -1001,7 +1001,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->groupBox6->Size = System::Drawing::Size(229, 90);
 			this->groupBox6->TabIndex = 15;
 			this->groupBox6->TabStop = false;
-			this->groupBox6->Text = L"Параметры массива А";
+			this->groupBox6->Text = L"РџР°СЂР°РјРµС‚СЂС‹ РјР°СЃСЃРёРІР° Рђ";
 			// 
 			// button30
 			// 
@@ -1009,7 +1009,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button30->Name = L"button30";
 			this->button30->Size = System::Drawing::Size(75, 23);
 			this->button30->TabIndex = 14;
-			this->button30->Text = L"Задать";
+			this->button30->Text = L"Р—Р°РґР°С‚СЊ";
 			this->button30->UseVisualStyleBackColor = true;
 			this->button30->Click += gcnew System::EventHandler(this, &MyForm::button30_Click);
 			// 
@@ -1028,7 +1028,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(46, 13);
 			this->label16->TabIndex = 12;
-			this->label16->Text = L"Размер";
+			this->label16->Text = L"Р Р°Р·РјРµСЂ";
 			// 
 			// groupBox7
 			// 
@@ -1039,7 +1039,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->groupBox7->Size = System::Drawing::Size(123, 74);
 			this->groupBox7->TabIndex = 11;
 			this->groupBox7->TabStop = false;
-			this->groupBox7->Text = L"Начальн. знач.";
+			this->groupBox7->Text = L"РќР°С‡Р°Р»СЊРЅ. Р·РЅР°С‡.";
 			// 
 			// radioButton4
 			// 
@@ -1050,7 +1050,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->radioButton4->Size = System::Drawing::Size(71, 17);
 			this->radioButton4->TabIndex = 2;
 			this->radioButton4->TabStop = true;
-			this->radioButton4->Text = L"случайно";
+			this->radioButton4->Text = L"СЃР»СѓС‡Р°Р№РЅРѕ";
 			this->radioButton4->UseVisualStyleBackColor = true;
 			// 
 			// radioButton5
@@ -1060,7 +1060,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->radioButton5->Name = L"radioButton5";
 			this->radioButton5->Size = System::Drawing::Size(81, 17);
 			this->radioButton5->TabIndex = 1;
-			this->radioButton5->Text = L"по порядку";
+			this->radioButton5->Text = L"РїРѕ РїРѕСЂСЏРґРєСѓ";
 			this->radioButton5->UseVisualStyleBackColor = true;
 			// 
 			// groupBox8
@@ -1074,7 +1074,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->groupBox8->Size = System::Drawing::Size(710, 97);
 			this->groupBox8->TabIndex = 16;
 			this->groupBox8->TabStop = false;
-			this->groupBox8->Text = L"Копирование массивов";
+			this->groupBox8->Text = L"РљРѕРїРёСЂРѕРІР°РЅРёРµ РјР°СЃСЃРёРІРѕРІ";
 			// 
 			// groupBox11
 			// 
@@ -1096,7 +1096,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(56, 13);
 			this->label17->TabIndex = 3;
-			this->label17->Text = L"Индексы:";
+			this->label17->Text = L"РРЅРґРµРєСЃС‹:";
 			// 
 			// textBox19
 			// 
@@ -1113,7 +1113,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label19->Name = L"label19";
 			this->label19->Size = System::Drawing::Size(56, 13);
 			this->label19->TabIndex = 5;
-			this->label19->Text = L"конечный";
+			this->label19->Text = L"РєРѕРЅРµС‡РЅС‹Р№";
 			// 
 			// textBox20
 			// 
@@ -1130,7 +1130,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->label18->Name = L"label18";
 			this->label18->Size = System::Drawing::Size(62, 13);
 			this->label18->TabIndex = 4;
-			this->label18->Text = L"начальный";
+			this->label18->Text = L"РЅР°С‡Р°Р»СЊРЅС‹Р№";
 			// 
 			// button31
 			// 
@@ -1138,7 +1138,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->button31->Name = L"button31";
 			this->button31->Size = System::Drawing::Size(84, 30);
 			this->button31->TabIndex = 7;
-			this->button31->Text = L"Выполнить";
+			this->button31->Text = L"Р’С‹РїРѕР»РЅРёС‚СЊ";
 			this->button31->UseVisualStyleBackColor = true;
 			this->button31->Click += gcnew System::EventHandler(this, &MyForm::button31_Click);
 			// 
@@ -1151,7 +1151,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->groupBox10->Size = System::Drawing::Size(155, 68);
 			this->groupBox10->TabIndex = 6;
 			this->groupBox10->TabStop = false;
-			this->groupBox10->Text = L"Способ копирования";
+			this->groupBox10->Text = L"РЎРїРѕСЃРѕР± РєРѕРїРёСЂРѕРІР°РЅРёСЏ";
 			// 
 			// radioButton10
 			// 
@@ -1160,7 +1160,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->radioButton10->Name = L"radioButton10";
 			this->radioButton10->Size = System::Drawing::Size(116, 17);
 			this->radioButton10->TabIndex = 1;
-			this->radioButton10->Text = L"Копировать часть";
+			this->radioButton10->Text = L"РљРѕРїРёСЂРѕРІР°С‚СЊ С‡Р°СЃС‚СЊ";
 			this->radioButton10->UseVisualStyleBackColor = true;
 			// 
 			// radioButton9
@@ -1172,7 +1172,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->radioButton9->Size = System::Drawing::Size(106, 17);
 			this->radioButton9->TabIndex = 0;
 			this->radioButton9->TabStop = true;
-			this->radioButton9->Text = L"Копировать всё";
+			this->radioButton9->Text = L"РљРѕРїРёСЂРѕРІР°С‚СЊ РІСЃС‘";
 			this->radioButton9->UseVisualStyleBackColor = true;
 			// 
 			// groupBox9
@@ -1241,7 +1241,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox1);
 			this->Name = L"MyForm";
-			this->Text = L"Бажин Дмитрий, ООП Лаба 3";
+			this->Text = L"Р‘Р°Р¶РёРЅ Р”РјРёС‚СЂРёР№, РћРћРџ Р›Р°Р±Р° 3";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->groupBox3->ResumeLayout(false);
 			this->groupBox2->ResumeLayout(false);
@@ -1275,7 +1275,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			textBox4->Text = ch;
 			textBox3->Text = zn;
 			textBox5->Text = zn;
-			listBox1->Items->Add("Дробь A[" + ii[0] + "] -> " + textBox1->Text);
+			listBox1->Items->Add("Р”СЂРѕР±СЊ A[" + ii[0] + "] -> " + textBox1->Text);
 			UpdateListD1();
 		};
 	private: void UpdateListD1() {
@@ -1292,7 +1292,7 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 			textBox11->Text = ch;
 			textBox12->Text = zn;
 			textBox10->Text = zn;
-			listBox1->Items->Add("Дробь B[" + ii[1] + "] -> " + textBox14->Text);
+			listBox1->Items->Add("Р”СЂРѕР±СЊ B[" + ii[1] + "] -> " + textBox14->Text);
 			UpdateListD2();
 		};
 	private: void UpdateListD2() {
@@ -1473,34 +1473,34 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 	}
 	private: System::Void button21_Click(System::Object^ sender, System::EventArgs^ e) {
 		if (D[0][ii[0]] == D[1][ii[1]]) {
-			listBox1->Items->Add("Дровь 1 == Дробь 2");
+			listBox1->Items->Add("Р”СЂРѕРІСЊ 1 == Р”СЂРѕР±СЊ 2");
 		}
 		if (D[0][ii[0]] > D[1][ii[1]]) {
-			listBox1->Items->Add("Дробь 1 > Дровь 2");
+			listBox1->Items->Add("Р”СЂРѕР±СЊ 1 > Р”СЂРѕРІСЊ 2");
 		}
 		if (D[0][ii[0]] < D[1][ii[1]]) {
-			listBox1->Items->Add("Дровь 1 < Дробь 2");
+			listBox1->Items->Add("Р”СЂРѕРІСЊ 1 < Р”СЂРѕР±СЊ 2");
 		}
 	}
 	private: System::Void button22_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D[0][ii[0]] - D[1][ii[1]];
-		listBox1->Items->Add("Разность дробей = " + abs(tmp.GetChis()) + "/" + tmp.GetZnam());
+		listBox1->Items->Add("Р Р°Р·РЅРѕСЃС‚СЊ РґСЂРѕР±РµР№ = " + abs(tmp.GetChis()) + "/" + tmp.GetZnam());
 	}
 	private: System::Void button25_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D[0][ii[0]] + D[1][ii[1]];
-		listBox1->Items->Add("Сумма дробей = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("РЎСѓРјРјР° РґСЂРѕР±РµР№ = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 	private: System::Void button26_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D[0][ii[0]] * D[1][ii[1]];
-		listBox1->Items->Add("Произведение дробей = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("РџСЂРѕРёР·РІРµРґРµРЅРёРµ РґСЂРѕР±РµР№ = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 	private: System::Void button27_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D[0][ii[0]] / D[1][ii[1]];
-		listBox1->Items->Add("Дробь 1/Дробь 2 = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("Р”СЂРѕР±СЊ 1/Р”СЂРѕР±СЊ 2 = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 	private: System::Void button28_Click(System::Object^ sender, System::EventArgs^ e) {
 		Drob tmp = D[1][ii[1]] / D[0][ii[0]];
-		listBox1->Items->Add("Дробь 2/Дробь 1 = " + tmp.GetChis() + "/" + tmp.GetZnam());
+		listBox1->Items->Add("Р”СЂРѕР±СЊ 2/Р”СЂРѕР±СЊ 1 = " + tmp.GetChis() + "/" + tmp.GetZnam());
 	}
 	private: System::Void textBox15_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 		ii[0] = Convert::ToInt32(textBox15->Text);
@@ -1509,13 +1509,13 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 	private: System::Void button29_Click(System::Object^ sender, System::EventArgs^ e) {
 		D[0].SetSize(Convert::ToInt16(textBox17->Text));
 		if (radioButton3->Checked) {
-			//заполнить D[0] рандомно
+			//Р·Р°РїРѕР»РЅРёС‚СЊ D[0] СЂР°РЅРґРѕРјРЅРѕ
 			for (UINT i = 0; i < D[0].GetSize(); i++) {
 				D[0][i].SetDrob(rand() % 100, rand() % 100);
 			}
 		}
 		if (radioButton2->Checked) {
-			//заполнить D[0] от 0/1 до n/1
+			//Р·Р°РїРѕР»РЅРёС‚СЊ D[0] РѕС‚ 0/1 РґРѕ n/1
 			for (UINT i = 0; i < D[0].GetSize(); i++) {
 				D[0][i].SetChis(i);
 			}
@@ -1529,13 +1529,13 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 	private: System::Void button30_Click(System::Object^ sender, System::EventArgs^ e) {
 		D[1].SetSize(Convert::ToInt32(textBox18->Text));
 		if (radioButton4->Checked) {
-			//заполнить D[1] рандомно
+			//Р·Р°РїРѕР»РЅРёС‚СЊ D[1] СЂР°РЅРґРѕРјРЅРѕ
 			for (UINT i = 0; i < D[1].GetSize(); i++) {
 				D[1][i].SetDrob(rand() % 100, rand() % 100);
 			}
 		}
 		if (radioButton5->Checked) {
-			//заполнить D[1] от 0/1 до n/1
+			//Р·Р°РїРѕР»РЅРёС‚СЊ D[1] РѕС‚ 0/1 РґРѕ n/1
 			for (UINT i = 0; i < D[1].GetSize(); i++) {
 				D[1][i].SetChis(i);
 			}
@@ -1560,24 +1560,24 @@ private: System::Windows::Forms::GroupBox^ groupBox11;
 		if (from > to) { int x = from; from = to; to = x; };
 
 		if (radioButton7->Checked) {
-			//действич A->B
+			//РґРµР№СЃС‚РІРёС‡ A->B
 			if (radioButton9->Checked) {
-				//копировать ВСЁ в D[1] из D[0];
+				//РєРѕРїРёСЂРѕРІР°С‚СЊ Р’РЎРЃ РІ D[1] РёР· D[0];
 				D[1].Copy(D[0], 0, D[0].GetSize());
 			}
 			if (radioButton10->Checked) {
-				//копировать часть
+				//РєРѕРїРёСЂРѕРІР°С‚СЊ С‡Р°СЃС‚СЊ
 				D[1].Copy(D[0], from, to);
 			}
 		}
 		if (radioButton8->Checked) {
-			//действия B->A
+			//РґРµР№СЃС‚РІРёСЏ B->A
 			if (radioButton9->Checked) {
-				//копировать ВСЁ в D[0] из D[1];
+				//РєРѕРїРёСЂРѕРІР°С‚СЊ Р’РЎРЃ РІ D[0] РёР· D[1];
 				D[0].Copy(D[1], 0, D[1].GetSize());
 			}
 			if (radioButton10->Checked) {
-				//копировать часть
+				//РєРѕРїРёСЂРѕРІР°С‚СЊ С‡Р°СЃС‚СЊ
 				D[0].Copy(D[1], from, to);
 			}
 		}
